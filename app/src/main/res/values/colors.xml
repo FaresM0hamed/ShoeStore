@@ -10,4 +10,5 @@
     <color name="blue">#0099ff</color>
     <color name="backGround">#F4F4F4</color>
     <color name="fontColor">#102661</color>
+    <color name="hintColor">#959595</color>
 </resources>

@@ -5,6 +5,7 @@ import android.view.*
 import androidx.fragment.app.Fragment
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.activityViewModels
+import androidx.lifecycle.ViewModel
 import androidx.navigation.fragment.findNavController
 import com.example.shoestore.R
 import com.example.shoestore.databinding.CardShoeItemBinding
@@ -44,6 +45,7 @@ class ShoeListFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding.addShoeDetail.setOnClickListener {
+
             findNavController().navigate(R.id.action_shoeListFragment_to_shoeDetailsFragment)
         }
 

@@ -11,7 +11,7 @@
     <string name="welcome_in_our_shop">Welcome in our shop</string>
     <string name="lets_get_started">Lets get Started</string>
     <string name="click_on_add_button_to_add_new_shoe_details">Click on add button to add new \nshoe details</string>
-    <string name="complete_all_shoe_information_then_click_save">Complete all shoe information\n then click save</string>
+    <string name="complete_all_shoe_information_then_click_save">Complete all shoe information\nthen click save</string>
     <string name="next">Next</string>
     <string name="shoe_name">Shoe Name</string>
     <string name="company_name">Company Name</string>
@@ -20,4 +20,11 @@
     <string name="shoe_name_card">Shoe Name</string>
     <string name="description">Description</string>
     <string name="shoe_size">Shoe size</string>
+    <string name="instructions_on_how_to_get_started">Instructions on how to get started</string>
+    <string name="continue_">Continue</string>
+    <string name="football_stars">Football Stars</string>
+    <string name="adidas">Adidas</string>
+    <string name="_42">42</string>
+    <string name="good_in_wet_playground">Good in wet playground</string>
+    <string name="shoe_size_">Shoe Size</string>
 </resources>

@@ -30,7 +30,7 @@
     <fragment
         android:id="@+id/instructionesFragment"
         android:name="com.example.shoestore.ui.InstructionesFragment"
-        android:label="Instructiones"
+        android:label="Instructions"
         tools:layout="@layout/fragment_instructiones">
         <action
             android:id="@+id/action_instructionesFragment_to_shoeListFragment"

@@ -46,6 +46,7 @@
                 android:background="@drawable/edit_text_shape"
                 android:textColor="@color/fontColor"
                 android:hint="@string/shoestore_gmail_com"
+                android:textColorHint="@color/hintColor"
                 android:paddingStart="@dimen/_16sdp"
                 android:paddingEnd="@dimen/_16sdp"
                 app:layout_constraintEnd_toEndOf="@+id/imageView"
@@ -68,6 +69,7 @@
                 android:layout_marginTop="@dimen/_24sdp"
                 android:background="@drawable/edit_text_shape"
                 android:hint="@string/pass"
+                android:textColorHint="@color/hintColor"
                 android:paddingStart="@dimen/_16sdp"
                 android:paddingEnd="@dimen/_16sdp"
                 android:inputType="textPassword"
@@ -117,7 +119,7 @@
 
         <ImageView
             android:id="@+id/imageView2"
-            app:layout_constraintHeight_percent="0.20"
+            app:layout_constraintHeight_percent="0.18"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:contentDescription="@null"
@@ -130,7 +132,7 @@
 
         <ImageView
             android:id="@+id/imageView3"
-            app:layout_constraintHeight_percent="0.20"
+            app:layout_constraintHeight_percent="0.18"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:contentDescription="@null"

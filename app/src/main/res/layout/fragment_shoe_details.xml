@@ -44,6 +44,8 @@
             android:paddingEnd="@dimen/_16sdp"
             android:text="@={ShoeViewModel.shoeName}"
             android:textColor="@color/fontColor"
+            android:hint="@string/football_stars"
+            android:textColorHint="@color/hintColor"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
@@ -73,6 +75,8 @@
             android:paddingStart="@dimen/_16sdp"
             android:paddingEnd="@dimen/_16sdp"
             android:text="@={ShoeViewModel.shoeCompany}"
+            android:hint="@string/adidas"
+            android:textColorHint="@color/hintColor"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
@@ -83,7 +87,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/oswald_medium"
-            android:text="Shoe Size"
+            android:text="@string/shoe_size_"
             android:textColor="@color/fontColor"
             android:textSize="@dimen/_12sdp"
             app:layout_constraintBottom_toTopOf="@+id/editText4"
@@ -102,10 +106,13 @@
             android:paddingStart="@dimen/_16sdp"
             android:paddingEnd="@dimen/_16sdp"
             android:inputType="numberDecimal"
+            android:hint="@string/_42"
+            android:textColorHint="@color/hintColor"
             app:layout_constraintStart_toStartOf="@+id/textView5"
             app:layout_constraintTop_toBottomOf="@+id/editText3" />
 
         <TextView
+            android:id="@+id/textView6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/oswald_medium"
@@ -127,6 +134,8 @@
             android:textColor="@color/fontColor"
             android:paddingStart="@dimen/_16sdp"
             android:paddingEnd="@dimen/_16sdp"
+            android:hint="@string/good_in_wet_playground"
+            android:textColorHint="@color/hintColor"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/editText4" />
 
