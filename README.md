@@ -1,7 +1,7 @@
 # ShoeStore
 Udacity Android Kotlin Development Layouts and Navigation Project. Implemented best practices for navigation and user interfaces in Android, while following recommended Android app architecture guidance with ViewModel and LiveData lifecycle classes.
 
-## Libraries
+## Used in App
 - Navigation Component
 - ViewModel
 - LiveData
